@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#438193F2">
+
+    <!-- Plateau de jeu en GridLayout -->
+    <GridLayout
+        android:id="@+id/grilleTicTacToe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/case_0"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_1"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_2"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_3"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_4"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_5"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_6"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_7"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/case_8"
+            style="@style/caseTicTacToe"
+            android:fontFamily="sans-serif-black"
+            app:backgroundTint="#FFFFFF" />
+    </GridLayout>
+
+    <!-- Affichage du joueur courant -->
+    <TextView
+        android:id="@+id/tv_etat_jeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/grilleTicTacToe"
+        tools:text="Tour : Joueur 1(X)" />
+
+    <!-- Bouton de réinitialisation -->
+    <Button
+        android:id="@+id/btnReinitialiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Reinitialiser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_etat_jeu" />
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

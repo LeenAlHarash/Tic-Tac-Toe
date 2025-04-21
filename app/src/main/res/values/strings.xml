@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">TicTacToe</string>
+    <string name="match_nul">Match nul!</string>
+    <string name="caseOccupe">Case occupée, choisissez une autre!</string>
+    <string name="tourJoueurs">Tour : Joueur %1$s (%2$s)</string>
+    <string name="gagnant">Gagnant : Joueur %1$s</string>
+    <string name="Reinitialiser">Réinitialiser</string>
+</resources>

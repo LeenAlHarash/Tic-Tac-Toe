@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="match_nul">" Partid anulado!"</string>
+    <string name="caseOccupe">¡Caja ocupada, elige otra!</string>
+    <string name="tourJoueurs">Tourno: Jugador %1$s (%2$s)</string>
+    <string name="gagnant">Ganador : Jugador %1$s</string>
+    <string name="Reinitialiser">Reiniciar</string>
+</resources>

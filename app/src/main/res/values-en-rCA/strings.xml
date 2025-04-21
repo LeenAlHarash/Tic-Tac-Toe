@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="match_nul">Draw!</string>
+    <string name="caseOccupe">Occuped, choose another case</string>
+    <string name="tourJoueurs">Turn : Player %1$s (%2$s)</string>
+    <string name="gagnant">Winner : Player %1$s</string>
+    <string name="Reinitialiser">Reinitialize</string>
+</resources>
